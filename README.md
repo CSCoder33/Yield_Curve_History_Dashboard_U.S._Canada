@@ -85,9 +85,10 @@ Below snapshots point to the “_latest” images the pipeline overwrites on eac
     <td><strong>UST10 – GoC10 + USD/CAD</strong><br><img src="reports/figures/xccy_spread_latest.png" width="480"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><strong>One‑Pager</strong><br><img src="reports/one_pagers/one_pager_latest.png" width="960"></td>
-  </tr>
-  <tr>
     <td colspan="2" align="center"><em>Note: 1w/1m/3m = 5/21/63 trading days</em></td>
   </tr>
 </table>
+
+### One‑Pager (Shareable)
+
+<img src="reports/one_pagers/one_pager_latest.png" width="960">
