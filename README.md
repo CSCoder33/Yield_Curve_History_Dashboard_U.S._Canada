@@ -1,7 +1,7 @@
 # Treasury Curve History Dashboard (US + Canada)
 
-<!-- CI status badge: replace OWNER/REPO with your GitHub path after pushing -->
-[![Update Visuals](https://github.com/OWNER/REPO/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/OWNER/REPO/actions/workflows/pipeline.yml)
+<!-- CI status badge: replace CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada with your GitHub path after pushing -->
+[![Update Visuals](https://github.com/CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada/actions/workflows/pipeline.yml)
 
 
 This project builds a visual-first dashboard to compare U.S. Treasuries vs Government of Canada (GoC) curves over time, track slopes (2s10s, 5s30s), view historical curve shifts, and add volatility context. It ships both static outputs (PNG/SVG) and a live Streamlit app.
