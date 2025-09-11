@@ -1,0 +1,31 @@
+lookbacks:
+  compare_curves: ["1M", "3M", "1Y"]
+  slope_window: max
+  heatmap_window: "3M"
+
+colors:
+  us: "#1f77b4"
+  ca: "#d62728"
+  neutral: "#7f7f7f"
+  diverging: "coolwarm"
+  heatmap_us: "RdBu_r"
+  heatmap_ca: "Reds"
+  recession_shading: false
+
+style:
+  output_dpi: 150
+  font_size: 12
+  title_size: 14
+  figure_sizes:
+    curve_snapshot: [9, 5]
+    slopes: [10, 6]
+    heatmap: [9, 4]
+    vol_strip: [9, 3]
+    xccy_spread: [9, 3]
+    one_pager: [14, 10]
+
+export:
+  out_dir: "reports/figures"
+  one_pager_dir: "reports/one_pagers"
+  save_png: true
+  save_svg: true

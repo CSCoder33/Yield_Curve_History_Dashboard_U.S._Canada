@@ -1,0 +1,117 @@
+# US Treasury (FRED) and Canada (BoC Valet) benchmark yields
+# Edit IDs to adjust maturities or sources without code changes.
+
+US_3M:
+  name: US_3M
+  country: US
+  tenor_years: 0.25
+  source: fred
+  id: DGS3MO
+  units: pct
+  frequency: daily
+  field: value
+
+US_2Y:
+  name: US_2Y
+  country: US
+  tenor_years: 2
+  source: fred
+  id: DGS2
+  units: pct
+  frequency: daily
+  field: value
+
+US_5Y:
+  name: US_5Y
+  country: US
+  tenor_years: 5
+  source: fred
+  id: DGS5
+  units: pct
+  frequency: daily
+  field: value
+
+US_10Y:
+  name: US_10Y
+  country: US
+  tenor_years: 10
+  source: fred
+  id: DGS10
+  units: pct
+  frequency: daily
+  field: value
+
+US_30Y:
+  name: US_30Y
+  country: US
+  tenor_years: 30
+  source: fred
+  id: DGS30
+  units: pct
+  frequency: daily
+  field: value
+
+# BoC Valet series IDs are configurable; placeholders are common IDs but should be verified.
+# See https://www.bankofcanada.ca/valet/ for exact series.
+# Note: CA 3M (T-bill) is omitted for now due to Valet endpoint differences.
+# If you want CA 3M, we can add a confirmed Valet series ID later.
+
+CA_2Y:
+  name: CA_2Y
+  country: CA
+  tenor_years: 2
+  source: boc
+  id: BD.CDN.2YR.DQ.YLD # GoC 2-year benchmark yield (Valet series_id)
+  units: pct
+  frequency: daily
+  field: value
+
+CA_5Y:
+  name: CA_5Y
+  country: CA
+  tenor_years: 5
+  source: boc
+  id: BD.CDN.5YR.DQ.YLD # GoC 5-year benchmark yield (Valet series_id)
+  units: pct
+  frequency: daily
+  field: value
+
+CA_10Y:
+  name: CA_10Y
+  country: CA
+  tenor_years: 10
+  source: boc
+  id: BD.CDN.10YR.DQ.YLD # GoC 10-year benchmark yield (Valet series_id)
+  units: pct
+  frequency: daily
+  field: value
+
+CA_30Y:
+  name: CA_30Y
+  country: CA
+  tenor_years: 30
+  source: boc
+  id: BD.CDN.LONG.DQ.YLD # GoC long-term benchmark (Valet series_id)
+  units: pct
+  frequency: daily
+  field: value
+
+CA_3M:
+  name: CA_3M
+  country: CA
+  tenor_years: 0.25
+  source: boc
+  id: V80691303 # Treasury bill auction - average yields (3M)
+  units: pct
+  frequency: daily
+  field: value
+
+# Optional FX for context only (FRED DEXCAUS = USD/CAD)
+USD_CAD:
+  name: USD_CAD
+  country: FX
+  source: fred
+  id: DEXCAUS
+  units: ratio
+  frequency: daily
+  field: value

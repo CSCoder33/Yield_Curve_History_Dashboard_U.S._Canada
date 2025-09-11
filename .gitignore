@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+
+# Data caches
+data/raw/
+*.parquet.tmp
+
+# Streamlit
+.streamlit/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+

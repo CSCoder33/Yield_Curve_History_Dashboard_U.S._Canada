@@ -1,0 +1,5 @@
+order: [US, CA]
+symbols:
+  US: USD
+  CA: CAD
+default_tenors_years: [0.25, 2, 5, 10, 30]
