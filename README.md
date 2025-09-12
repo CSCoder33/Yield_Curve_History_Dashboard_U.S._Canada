@@ -1,4 +1,4 @@
-# Yield Curve History Dashboard (US + Canada)
+# Yield Curve History Dashboard (U.S. + Canada)
 
 <!-- CI status badge: replace CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada with your GitHub path after pushing -->
 [![Update Visuals](https://github.com/CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/CSCoder33/Yield_Curve_History_Dashboard_U.S._Canada/actions/workflows/pipeline.yml)
