@@ -65,7 +65,7 @@ The app reads `data/processed/daily.parquet` or `daily.csv` and shows tabs for C
 - Slope 2s10s/5s30s: difference between 10y−2y / 30y−5y yields
 - bp vs %: 1% = 100 bp
 
-Last updated: 2026-02-02
+Last updated: 2026-02-03
 
 ## Gallery (Auto‑Updated)
 
